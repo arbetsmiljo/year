@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@arbetsmiljo/diarium": "^0.0.9"
+    "@arbetsmiljo/diarium": "^0.0.10"
   },
   "name": "@arbetsmiljo/year",
   "pnpm": {
