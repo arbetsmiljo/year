@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  main:
+  autoindex:
     runs-on: ubuntu-latest
 
     permissions:
@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: arbetsmiljo/autoindex@v35
+      - uses: arbetsmiljo/autoindex@v40
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           year: ${{ github.event.repository.name }}
